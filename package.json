@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "merge-env": "node scripts/merge-env.js"
   },
   "keywords": [],
   "author": "",
