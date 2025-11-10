@@ -10,6 +10,12 @@ const API_BASE_URL = (() => {
   return clean;
 })();
 
+// One-time debug log to verify which API base is being used at runtime
+try {
+  const mode = import.meta?.env?.MODE || (import.meta?.env?.PROD ? 'production' : 'development');
+  console.info(`[API] Using base URL: ${API_BASE_URL} (mode: ${mode})`);
+} catch {}
+
 // In-memory cache and de-duplication for identical requests
 const responseCache = new Map(); // key -> { ts, data }
 const inflightRequests = new Map(); // key -> Promise
