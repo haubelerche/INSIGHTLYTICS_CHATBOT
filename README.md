@@ -4,7 +4,10 @@ Insightlytics-chatbot
 A lightweight React + Vite frontend that helps users query, summarize, and generate product reviews using scraped product data and language models (local or remote). It's intended for developers and data enthusiasts who want a UI to experiment with LLM-based product analysis and simple scraping/text-to-SQL flows.
 
 
-https://github.com/user-attachments/assets/96ba1acb-7d47-419d-ae1f-5aa54746ba45
+
+https://github.com/user-attachments/assets/eb0dfc08-14a6-4cf0-88bf-2821973e22f3
+
+
 
 
 Purpose
